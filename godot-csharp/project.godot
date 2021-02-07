@@ -74,11 +74,6 @@ _global_script_classes=[ {
 "language": "GDScript",
 "path": "res://src/dialogue/DialoguePlayer.gd"
 }, {
-"base": "Node",
-"class": "Drops",
-"language": "GDScript",
-"path": "res://src/combat/battlers/Drops.gd"
-}, {
 "base": "Item",
 "class": "Equipment",
 "language": "GDScript",
@@ -278,7 +273,6 @@ _global_script_class_icons={
 "DialogueAction": "",
 "DialogueBox": "",
 "DialoguePlayer": "",
-"Drops": "",
 "Equipment": "",
 "Formation": "",
 "GUI": "",

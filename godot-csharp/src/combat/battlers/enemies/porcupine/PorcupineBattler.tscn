@@ -15,7 +15,7 @@ stats = ExtResource( 2 )
 [node name="PorcupineAnim" parent="Skin" index="2" instance=ExtResource( 3 )]
 
 [node name="Drops" parent="." index="5"]
-experience = 2
+Experience = 2
 
 [node name="AI" parent="." index="6"]
 script = ExtResource( 4 )

@@ -22,8 +22,8 @@ func initialize(battlers: Array):
 
 func _add_reward(battler: Battler):
 	# Appends dictionaries with the form { 'item': Item.tres, 'amount': amount } of dropped items to the drops array.
-	experience_earned += battler.drops.experience
-	for drop in battler.drops.get_drops():
+	experience_earned += battler.drops.Experience
+	for drop in battler.drops.GetDrops():
 		if drop.chance - randf() > drop.chance:
 			continue
 		var amount: int = (
