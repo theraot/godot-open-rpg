@@ -1,0 +1,3 @@
+[*.cs]
+# Roslyn Analyzers
+dotnet_diagnostic.RCS1110.severity = silent # Declare in namespace.
